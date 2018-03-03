@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    background: url(../images/theater.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+.container{
+    padding: 5%;
+}
+
+#logo {
+    width: 45%;
+}
+
+#started {
+    cursor: pointer;
+}
+
+#optionA {
+    cursor: pointer;
+    color: rgb(123, 255, 0);
+}
+
+#optionB {
+    cursor: pointer;
+    color: rgb(255, 107, 210);
+}
+
+#optionC {
+    cursor: pointer;
+    color: rgb(0, 217, 255);
+}
+
+#optionD {
+    cursor: pointer;
+    color: rgb(253, 194, 0);
+}
+
+#yay {
+    padding-left: auto;
+    padding-right:auto;
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    justify-content: center;
+}
